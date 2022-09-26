@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: literata;
+    src: url(../fonts/Literata-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face{
+    font-family: montserat;
+    src: url(../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+
+h2{
+    color: red;
+    padding: 15px;
+    font-family: montserat;
+
+}
+
+p:nth-of-type(1){
+    color: red;
+    padding: 1px;
+    font-size: 16;
+    
+}
+
+p{
+    font-family: literata;
+background-color: brown;
+padding: 0px;
+
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 5px 5px;
+   border: solid 7px green;
+}
+
+div{
+    background-color: gray;
+margin: 5px;
+padding: 5px;
+width: 300px;
+}
+
+ul ,ol{
+    
+    margin: 5px 25px 5px 25px;
+}
+
+
+div p:nth-of-type(1){
+    color: green;
+    text-align: left;
+}

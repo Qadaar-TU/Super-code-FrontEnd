@@ -1,0 +1,44 @@
+h1{
+    font-size: 48px;
+    background-color: grey;
+    color: aliceblue;
+    text-align: center;
+    
+    text-shadow: 4px 4px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    text-indent: 2%;
+    word-spacing: 23px;
+}
+
+
+main{
+    text-indent: 2%;
+    word-spacing: 23px;
+}
+
+h2{
+    text-shadow: 2px 2px grey;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-indent: 50px;
+}
+
+section{
+    background-color: gray;
+    line-height: 30px;
+}
+
+aside{
+    background-color: black;
+    color: white;
+    line-height: 1cm;
+}
+

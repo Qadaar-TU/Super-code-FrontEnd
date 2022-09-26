@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url(../img/Lev3_2_css-einführung_box-model_img.jpg);
+color: white;
+height: 100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+main{
+    padding: 10%;
+}
+
+
+footer{
+    background-color: #7882A4;
+    padding: 5%;
+}
+
+h1{
+    padding: 20px 60px;
+    
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.headerP {
+    text-align:center;
+
+}
+
+.readmore {
+    text-align: center;
+    outline: solid chartreuse;
+    padding-left: 600px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    color: white;
+
+}
+
+.headnav a{
+ outline: salmon solid; 
+padding: 50px 1000px 0px 0px;
+   margin: 0px 0px 0px 0px ;
+   display: inline-block;
+   position: relative;
+color: white;
+
+ text-decoration: none;
+
+
+}
+
+
+
+
+h4{
+    text-align: center;
+    border: 2px double black;
+    max-width: 200px;
+    margin: auto;
+    
+}
+
+.find-us {
+    border: 3px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a{
+   
+    color: white;
+text-decoration: none;
+background-color: blue;
+margin-left: 10px;
+
+}
+
+
+
+

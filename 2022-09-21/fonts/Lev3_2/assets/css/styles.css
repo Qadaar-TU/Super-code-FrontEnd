@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Pacifico-regular;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: Shadows Into Light;
+    src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face {
+    font-family: lato-black;
+    src: url(../fonts/Lato-Black.ttf);
+}
+
+h1{
+
+    background-color: black;
+    color: aliceblue;
+    text-shadow: 2px 2px red;
+    font-family: Pacifico-regular,arial;
+    }
+
+    h2{
+        background-color: lightgreen;
+        letter-spacing: 4px;
+        font-family: Shadows Into Light, Arial, Helvetica, sans-serif;
+    }
+
+    strong{
+        color: orange;
+    }
+
+    em{
+        color: red;
+    }
+span{word-spacing: 10px;}
+   
+h3{
+    font-family: pacifico-regular, Arial, Helvetica, sans-serif
+}
+
+main{
+    word-spacing: 7px;
+}
+ol{
+    color: red;
+    text-transform:uppercase
+}
+
+h4{
+    background-color: yellow;
+    text-align:end;
+    font-family: pacifico-regular, Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    text-shadow: -7px 4px gray;
+    
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+
+
+}
+
+ul{
+    background-color: gray;
+}
+
+li{
+    line-height: 30px;
+}

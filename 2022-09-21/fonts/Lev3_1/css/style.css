@@ -1,0 +1,35 @@
+h1 {
+  font-size: 48px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-family:  Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+main{
+text-transform:uppercase;
+text-decoration: underline;
+
+}
+
+section{
+text-transform: lowercase;
+text-decoration: underline;
+}
+
+h2{
+    text-indent: 120px;
+    text-shadow: 2px 2px black;
+    color: grey;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+ul{
+    background-color: darkgrey;
+}
+
+li{
+    background-color: gray;
+}
