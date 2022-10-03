@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Athene;
+    src: url(../font/Athene.otf);
+}
+
+header{
+    background-color: #EFE8D7;
+    display: flex;
+    justify-content: space-around;
+border-bottom:solid #042A5A 2px ;
+padding: 1rem;
+
+}
+
+main{
+    background-color: #EFE8D7;
+}
+
+article{
+   background-color: #F4C4C4;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ORANGE{
+    background-color: #DEB873;
+    
+  
+}
+
+
+
+footer{
+    background-color: #D2D2D2;
+    color: #388883;
+}
+
+.ROD{
+   display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+
+.KRANZ{
+    background-image: url(../img/bg-marconatto-1.jpg);
+}
+
+header p {
+    color: #042A5A;
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.gelbesection div {
+    text-align: center;
+    font-size: 12rem;
+    color: #042A5A;
+font-family: Athene;
+text-decoration: underline #042A5A;
+text-decoration-thickness: 2px;
+text-underline-offset: 20px;
+
+
+}
+
+section{
+    padding-top: 3rem;  
+}
+
+.designer {
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #042A5A;
+    margin-right: 16rem;
+    padding-bottom: 10rem;
+}
+
+span{
+    font-family: athene;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.nulleins {
+    padding: 5rem;
+    font-size: 1.5rem;
+}
+article h2 {
+    font-family: athene;
+    font-size: 10rem;
+}
+
+.first {
+    
+    display: flex;
+    justify-content: right;
+    line-height: 1rem;
+    padding-right: 33rem;
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
+}
+
+.firstt {
+    line-height: 200%;
+}
+
+/* ----------------LISTE---------------------------------------------------------------- */
+
+
+.PR {
+    
+display: flex;
+
+flex-direction: column;
+
+}
+
+ol{ font-size: 2rem;
+}
+
+ol p {
+    font-size: 1rem;
+    text-align: right;
+}
+
+.aufteiler{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+h3{
+    text-decoration: none;
+    text-align: right;
+    font-size: 1.5rem;
+    border-bottom: black solid 1px;
+    font-weight: normal;
+}
+
+
+
+.erstes {
+    display: flex;
+    justify-content: space-between; 
+    display: flex;
+   align-items: center;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   border-bottom: black solid 1px;
+   
+}
+
+.schwarz2 {
+    text-align: right;
+}
+
+ol{
+    list-style: none;
+}
+
+.under{
+    display: flex;
+    justify-content: space-between;
+    
+    display: flex;
+   align-items: center;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   border-bottom: solid black 1px;
+}
+
+.performance{
+    display: flex;
+    justify-content: space-between;
+    
+    display: flex;
+   align-items: center;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   border-bottom: solid black 1px;
+}
+
+/* -----------------------------------Liste fertig --------------------------- */
+
+.stempelteiler{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.stempel {
+    width: 15rem;
+    height: 15rem;
+   margin-left: 45rem;
+ 
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+/* -------------------Orange--------------------- */
+
+.ORANGE p {
+    color: #7D2222;
+}
+
+.ORANGE h2 {
+    color: #7D2222;
+    font-family: athene;
+    text-align: right;
+    font-size: 15rem;
+
+}
+
+.ORANGE h3{
+    color: #7D2222;
+}
+
+.nullzwei{
+   
+   
+    text-align: right;
+    font-size: 2rem;
+    padding-right: 12rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+
+.ORANGE p {
+    line-height: 3rem;
+    font-size: 1.8rem;
+    padding-left: 10rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 13rem;
+}
+
+
+/* .ROD{
+    background-image: url(../img/bg-marconatto-1.jpg);
+    height: 50rem;
+    width: 80rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    margin-left: 90rem;
+    border: violet solid 2px;
+   
+} */
+
+.lappen{
+
+    color: #7D2222;
+    font-family: athene;
+    font-size: 6rem;
+    padding-left: 40.5rem;
+    padding-top:1rem ;
+   
+    position: absolute;
+}
+
+.container {
+position: relative;
+    padding-bottom: 20rem;
+
+}
+
+
+.rodi{
+    padding-left: 85rem;
+   
+
+}
+
+.stein{
+padding-left: 12rem;
+
+}
+
+.KÄTHE {
+    position: relative;
+    
+    margin-bottom: 25rem;
+    
+}
+
+.KÄTHE div {
+    font-family: athene;
+    font-size: 6rem;
+    
+    position: absolute;
+    color: #7D2222;
+    text-align: right;
+    padding-left: 145rem;
+}
+
+.schnecke {
+    position: relative;
+    margin-bottom: 20rem;
+}
+
+.schnecke div {
+    position: absolute;
+    font-family: athene;
+    font-size: 6rem;
+    color: #7D2222;
+    padding-left: 40.5rem;
+
+}
+
+.schnecke img {
+
+    margin-left: 85rem;
+}
+
+.snow{
+    position: relative;
+    padding-bottom: 20rem;
+    
+}
+
+.snow div {
+    position: absolute;
+    
+    font-family: athene;
+    font-size: 6rem;
+    color: #7D2222;
+    text-align: right;
+    padding-left: 120rem;
+  
+}
+
+.snow img {
+    padding-left: 10rem;
+}
+
+
+.drei {
+    padding-left: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    font-size: 1.5rem;
+}
+
+footer h2 {
+    font-family: athene;
+    font-size: 15rem;
+}
+
+.now{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.8;
+    font-weight: 300;
+    padding-left: 40%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #388883;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.8;
+    
+}
+
+footer ul{
+    text-align: right;
+  
+    padding-bottom: 10rem;
+    padding-top: 15rem;
+    padding-right: 10rem;
+}
