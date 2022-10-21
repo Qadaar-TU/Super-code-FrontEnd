@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+fieldset{
+    
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+fieldset{
+    display: inline;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 80rem;
+    height: 40rem;
+    font-size: 1.8rem;
+    
+}
+
+
+
+label {
+    width: 15rem;
+    display: inline-block;
+    
+    margin: 0.5rem;
+}
+
+legend{
+    margin-left: 2rem;
+    align-items: flex-end;
+
+}
+
+.lang{
+    width: 15rem;
+
+}
+
+.choose{
+    width: 30rem;
+    padding-top: 4rem;
+}
+
+.male{
+    width: 4rem;
+}
+
+.female{
+    width: 6rem;
+}
+
+button{
+    margin-left: 2rem;
+}
+

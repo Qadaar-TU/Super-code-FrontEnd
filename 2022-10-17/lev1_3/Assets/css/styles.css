@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+div{
+display: grid;
+
+height: 100vh;
+
+gap: 2px;
+
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: repeat(12, 1fr) ;
+}
+
+header {
+    background-color: blue;
+    grid-column: 1/ -1;
+
+}
+
+
+aside {
+    background-color: green;
+    grid-row: 2/ span 10;
+}
+main {
+   grid-column: 2/ -1;
+   grid-row: 2/ 12;
+    background-color: red;
+    
+}
+
+footer {
+    background-color: blueviolet;
+    grid-column: 1/-1;
+}
+
+

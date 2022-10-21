@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+div{
+    background-color: darksalmon;
+    width: 90px;
+    height: 90px;
+    margin:30rem;
+    border-radius: 10px 10px;
+    transition: all 2s;
+}
+
+
+div:hover {
+
+    
+    transform: rotate(120deg);
+    transform-origin: bottom left;
+}

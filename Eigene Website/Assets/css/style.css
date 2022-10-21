@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(../font/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: thin;
+  src: url(../font/Inter-Thin.ttf);
+}
+
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: Inter;
+}
+
+h2 {
+  color: #3219ed;
+  
+  padding-left: 20px;
+  padding-top: 15px;
+  font-size: 4rem;
+  font-family: Inter;
+  
+}
+
+ section img{ 
+   width: 45vw;
+    box-shadow: 30px 30px  #3219ed;
+    
+}
+    
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: E8DFCA double 2px;
+  border-radius: 20px;
+padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+}
+
+.contact{
+  color: white;
+  font-size: 1.7rem;
+}
+
+
+
+ul {
+  list-style: none;
+  padding-top: 17px;
+
+  
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+
+
+
+header li:nth-of-type(5){
+  background-color: #3219ed;
+  padding: 3px 25px;
+  border-radius: 15px 15px;
+  
+}
+
+
+/* ---------MAIN----------------------- */
+
+
+section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 80vh;
+  margin-bottom: 10%;
+}
+
+h1{
+
+  font-size: 5rem;
+  padding: 3rem 0rem;
+ font-family: bold;
+}
+
+section p:nth-of-type(1){
+  font-size: 2rem;
+  color: #3219ed;
+  font-family: thin;
+}
+
+section p:nth-of-type(2){
+  font-size: 1.5rem;
+  padding-bottom: 6rem;
+}
+
+section div:nth-of-type(1){
+  
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+section a {
+  text-align: center;
+  background-color: #3219ed;
+  width: 80%;
+  font-size: 3rem;
+  font-family: bold;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px 30px;
+}
+
+
+/* ================== article ======================= */
+
+
+article {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 50rem;
+}
+
+article h2 {
+  color: black;
+  font-family: bold;
+  font-size: 8rem;
+}
+
+
+article img {
+  margin-top: 5rem;
+  width: 40px;
+  
+  margin: 2rem ;
+}
+
+.github {
+  margin-left: 8rem;
+}
+
+
+article div {
+  max-width: 50%;
+ 
+}
+
+
+
+article p {
+  padding: 1rem 10rem;
+  font-size: 1.7rem;
+}
+
+/* ============================= TECH STACK ============================== */
+
+.tech-stack {
+background-color: #3219ed;
+  height: 100vh;
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1fr 1fr); */
+ 
+}
+
+.tech-stack h2 {
+  padding-top: 14rem;
+  padding-left: 14rem;
+  color: white;
+  font-family: bold;
+  font-size: 8rem;
+}
+
+.grid-container {
+  display: grid;
+
+grid-template-columns: repeat(4, auto);
+
+}
+
+.webflow img {
+width: 110px;
+}
+
+
+/* ==================================== Werdegang ======================= */
+
+
+

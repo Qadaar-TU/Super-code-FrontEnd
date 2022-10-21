@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2.5rem;
+}
+
+
+.issue{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: black double 3px;
+    border-top: black double 3px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+main{
+    display: grid;
+
+    height: 90vh;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 40px 60px 1fr 1fr;
+
+    gap: 5px;
+}
+
+
+.heady {
+    display: flex;
+    grid-column: 1/ span 4;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.sponsor {
+    background-color: deeppink;
+
+   
+}
+
+.shatterring {
+    
+}
+
+.Grid4 {
+   
+}
+
+.Grid5 {
+    
+    grid-column: 3/ span 2;
+    grid-row: 2/ span 5;
+background-image: url(../img/kitchen.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
+
+    
+}
+
+.Grid7 {
+    
+    font-size: 1.5rem;
+}
+
+.Grid8 {
+font-size: 1.5rem;
+background-color: blue;
+}
+
+.Grid10{
+    background-color: coral;
+    grid-row: 4/ span 6;
+}
+
+.Grid11 {
+    background-color: darkslategrey;
+    grid-row: 4/ span 6;
+
+}
+
+.Grid6 {
+    background-color: cornflowerblue;
+}
+
+.Grid9 {
+    background-color: burlywood;
+}
+
+
+.Grid12{
+    background-color: palegreen;
+}

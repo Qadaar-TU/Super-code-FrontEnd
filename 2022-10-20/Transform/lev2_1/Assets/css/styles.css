@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+
+div{
+    background-color: green;
+height: 50px;
+width: 50px;
+color: white;
+}
+
+
+
+section{
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+    gap: 4rem;
+
+}
+
+div:nth-of-type(1):hover{
+    transition: all 1s;
+    transform: translate(20px, 20px);
+}
+
+
+
+
+div:nth-of-type(2):hover{
+    transition: all 1s;
+    transform: translateX(-20px);
+}
+
+
+
+div:nth-of-type(3):hover{
+    transition: all 1s;
+    transform: translatey(20px);
+}
+
+
+
+div:nth-of-type(4):hover{
+    transition: all 1s;
+    transform: rotate(50deg);
+}
+
+
+div:nth-of-type(5):hover{
+    transition: all 1s;
+    transform: scale(1.5);
+}
+
+
+div:nth-of-type(6):hover{
+    transition: all 1s;
+    transform: skew(30deg);
+}

@@ -1,0 +1,475 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: rocksalt;
+    src: url(../font/RockSalt-Regular.ttf);
+
+}
+@font-face {
+    font-family: nunito;
+    src: url(../font/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: nunitobold;
+    src: url(../font/Nunito-Bold.ttf);
+}
+
+@font-face {
+    font-family: extrabold;
+    src: url(../font/Nunito-ExtraBold.ttf);
+}
+
+.chomp{
+    font-family: rocksalt;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 4rem;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80vh;
+    
+}
+
+.dalmatiner h3{
+    display: none;
+    
+    justify-content: flex-end;
+    padding: 25px;
+    
+}
+
+.links{
+    
+   
+    width: 50%;
+    background-color: #FF8787;
+    color: white;
+    text-align: right;
+    font-size: 5rem;
+    font-family: nunitobold;
+   
+    
+}
+
+.links p {
+
+  padding-bottom: auto;
+  margin: 20px 20px 0 140px;
+}
+
+.dalmatiner{
+    background-image: url(../img/dog_catching_snack.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+section h2{
+    text-align: center;
+    padding: 4rem;
+    /* border: green solid 2px; */
+    font-size: 5rem;
+    font-family: nunitobold;
+    color: #FF8787;
+}
+
+
+
+.menu {
+    text-align: center;
+    padding: 3rem;
+    /* border: green solid 2px; */
+    font-size: 5rem;
+    font-family: nunitobold;
+    color: #FF8787;
+}
+
+
+
+span {
+    font-size: 5rem;
+    font-family: extrabold;
+    color: #FF8787;
+    
+    
+
+}
+
+.liste {
+    display: flex;
+    justify-content: center;
+   gap: 25px;
+    text-align: center;
+    /* border: solid 2px red; */
+    font-size: 2rem;
+    font-family: nunitobold;
+}
+
+.liste div {
+    /* border: yellow solid 2px; */
+height: 30rem;
+width: 30rem;
+margin: 10px;
+padding: 30px;
+padding-top: 70px;
+border-radius: 15px 15px 15px 15px;
+box-shadow: 1px 2px 3px gainsboro;
+
+}
+
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 50vh;
+    /* border: red solid 2px; */
+    margin-bottom: 30px;
+    
+}
+
+.eins {
+    width: 25%;
+    
+    background-image: url(../img/dog_eating_cookies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.zwei {
+    width: 25%;
+    
+    background-image: url(../img/dog_bowl.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    /* border: solid 2px green; */
+    border-radius: 15px 15px 15px 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   font-size: 1.5rem;
+   font-family: nunito;
+}
+
+.drei {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    background-color: #FF8787;
+    color: white;
+    font-family: nunito;
+    font-size: 3rem;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 15px 15px 15px 15px;
+    /* overflow: scroll; */
+}
+
+
+.local {
+   
+padding-top: 50px;
+padding-left: 40px;
+
+}
+
+.delicous {
+  
+text-align: right;
+padding-right: 40px;
+}
+
+.organic{
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+/* ------------------------------footer-------------------------------- */
+
+
+
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: nunito;
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+button {
+   
+    border-radius: 40px 40px 40px 40px;
+    /* padding: 20px 40px 20px 40px; */
+    font-family: nunito;
+    font-size: 2rem;
+
+}
+
+.bu{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.bu input, .bu button  {
+width: 450px;
+height: 50px
+}
+
+input{
+    text-align: center;
+    border-radius: 40px 40px 40px 40px;
+    font-family: nunito;
+}
+
+
+.bu button{
+   display: block;
+    /* margin-left: 50rem;    
+    padding: 20px 80px 20px 80px; */
+   
+} 
+
+
+footer img {
+    width: 70px;
+    margin: 30px;
+}
+
+footer h2 {
+    color: white;
+    text-align: right;
+    font-family: nunito;
+    padding: 20px;
+    font-size: 2rem;
+    
+}
+
+
+.sign{
+    background-color: #FF8787;
+    color: white;
+    margin-top: 10px;
+    
+}
+
+.schublade{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.svgcontainer{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.schublade img {
+
+width: 5rem;
+margin: 10px 10px 10px 10px;
+}
+
+
+.chef {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* ----large */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* ------------------------MEDIUM------------------------------------ */
+
+@media screen and (max-width: 900px) {
+
+
+main{
+    background-image: url(../img/dog_catching_snack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+} 
+
+.chomp {
+    font-size: 3rem;
+    background-color: transparent;
+}
+
+.links {
+    display: none;
+
+}
+
+.dalmatiner h3 {
+    display: flex;
+    color: #FF8787;
+    font-size: 2.5rem;
+    text-align: right;
+    line-height: 30px;
+    padding-right: 60px;
+    
+    }
+    
+    .dalmatiner {
+    display: block;
+    width: 100%;
+    }
+    
+
+section h2 {
+    background-color: #FF8787;
+    color: white;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+
+.liste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liste div {
+    /* border: yellow solid 2px; */
+height: 10rem;
+width: 50rem;
+margin: 10px;
+padding: 30px;
+padding-top: 70px;
+border-radius: none;
+box-shadow: none;
+
+}
+
+.liste div br {
+display:none
+}
+
+.liste div:nth-of-type(3){
+    padding-bottom: 150px;
+}
+
+.menu {
+    background-color: #FF8787;
+    color: white;
+    
+    font-size: 3rem;
+}
+.drei {
+    display: none;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.eins {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/dog_eating_cookies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.zwei {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/dog_bowl.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    /* border: solid 2px green; */
+    border-radius: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   font-size: 1.5rem;
+   font-family: nunito;
+}
+
+.chef{
+    display: block;
+    text-align: center;
+    font-family: nunitobold;
+    font-size: 2rem;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+}
+
+
+/* ------------------------------------SMALL------------------------------------- */
+@media screen and (max-width: 600px) {
+
+
+
+.liste div br {
+    display: block;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.schublade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.svgcontainer{
+    margin-top: 40px;
+}
+
+} 
+
+

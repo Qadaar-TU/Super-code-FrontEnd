@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+label{
+    width: 10rem;
+    display: inline-block;
+    
+    font-size: 1.2rem;
+}
+
+div{
+    
+
+    
+     flex-direction: column;
+     padding-left: 3rem;
+     padding: 2rem;
+     background-color: white;
+
+}
+
+form{
+    
+    padding: 2rem;
+    background-color:gainsboro;
+}
+
+
+section{
+    box-shadow: 0px 0px 10px;
+    width: 30%;
+    height: 60%;
+    margin-left: 30rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+   
+}
+
+.now{
+    font-size: 3rem;
+}
+
+h2{
+padding-bottom: 0.5rem;
+    font-size: 2rem;
+    color: teal;
+    
+}
+
+span{
+    margin-left: -3.5rem;
+    
+    padding: 2px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 50px 50px 50px 50px;
+    color: white;
+    background-color: teal;
+}
+
+input{
+width: 35rem;
+}
+
+.address{
+    height: 5rem;
+}
+
+.erste{
+    background-color: teal;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.submitdiv{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    padding: 3px 15px 3px 15px;
+    color: white;
+    background-color: teal;
+    border-radius: 4px 4px 4px 4px;
+    
+}
+
+button:hover{
+    background-color: rgb(1, 1, 75);
+}
+
+.check{
+    width: 15px;
+    margin-left: 14rem;
+}
+
+.agree{
+    width: 15rem;
+    
+    line-height: 25px;
+    padding-left: 1rem;
+}

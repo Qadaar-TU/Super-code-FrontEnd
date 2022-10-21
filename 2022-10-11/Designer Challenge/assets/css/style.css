@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotobold;
+    src: url(../font/Roboto-Bold.ttf);
+}
+
+/* ---------------------------erste seite-------------------------------- */
+
+.logo {
+    height: 80px;
+    padding: 20px;
+}
+
+.anfang{
+    /* border: red solid 2px; */
+    background-image: url(../img/ilustracion1.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 100%
+}
+
+.headerr{
+    /* border: green solid 2px; */
+display: flex;
+font-size: 1.5rem;
+font-family: robotobold;
+margin-bottom: 25rem;
+
+}
+
+.headerr div h2{
+    padding-top: 20px;
+}
+
+
+
+
+/* ---------------- How & TYP -------------- */
+
+
+.zweitediv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: yellow solid 2px; */
+    margin-bottom: 10rem;
+}
+
+.typ {
+    border: black solid 2px;
+   width: 600px;
+  
+   
+}
+
+.zweitediv h1 {
+    font-size: 8rem;
+    font-family: robotobold;
+}
+.zweitediv p{
+    font-family: roboto;
+    font-size: 2rem;
+    
+}
+
+.hierdertyp {
+    background-image: url(../img/ilustracion_people.png);
+    background-position: bottom 120px right -90px;
+   
+    background-size: cover;
+width: 500px;
+height: 500px;
+/* border: solid blueviolet 3px; */
+}
+
+header a {
+    text-decoration: none;
+    font-family: robotobold;
+    color: #ff3571;
+    font-size: 1rem;
+}
+
+
+
+/* ----------------------------- MAIN ----------------------- */
+
+main img {
+
+    height: 86vh;
+    margin-bottom: 30rem;
+}
+
+/* ---------------------------- SECTION IDEA --------------------------- */
+
+.idea {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.idea div {
+width: 50%;
+
+text-align: left;
+
+font-family: roboto;
+}
+
+span img {
+    width: 60px;
+}
+
+.idea h2 {
+    font-family: robotobold;
+    font-size: 7rem;
+    text-align: left;
+    padding-left: 30rem;
+    padding-bottom: 23rem;
+}
+
+.idea p {
+    font-size: 3rem;
+    padding: 20px 90px 20px 50px;
+    line-height: 5rem;
+}
+
+
+.after {
+    border: red solid 2px;
+    height: 30vh;
+    font-family: robotobold;
+    font-size: 5rem;
+    padding-left: 30rem;
+    
+    margin-bottom: 10rem;
+}
+
+/* ------------------------- 4 SECTION------------------------------- */
+
+.vierer {
+margin-bottom: 10rem;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.vierer div {
+    border: green solid 2px;
+}
+

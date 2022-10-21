@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+font-size: 62.5%;
+font-family: Inter;
+}
+
+header a{
+    font-style: ;
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: black;
+    margin-left: 100px;
+    
+background-color: red;
+}
+
+
+header{
+    background-color: blue;
+    padding: 3rem;
+}
+
+header ul li {
+    /* list-style: none; */
+
+}

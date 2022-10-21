@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.5rem;
+    scroll-behavior: smooth;
+    
+   
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: rosybrown;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: yellow;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:greenyellow;
+}
+
+a:hover +p {
+  
+    animation-name: meine-animation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+
+@keyframes meine-animation {
+0% {
+    transform: translateY(30px)
+}
+
+
+}

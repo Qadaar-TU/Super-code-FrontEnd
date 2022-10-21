@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: work-sans;
+  
+}
+
+@font-face {
+    font-family: work-sans;
+    src: url(../font/WorkSans-VariableFont_wght.ttf);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+ 
+}
+
+body{
+    background-color: #2e2e2e;
+}
+
+
+header img {
+   padding: 20px 0 10px 30px;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #867772 ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.erste{
+    margin-right: 50px;
+}
+
+.ende {
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.manfly {
+    background-image: url(../img/section-about-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 80px;
+    margin-bottom: 150px;
+   
+}
+
+a:hover{
+color: antiquewhite;
+text-decoration: underline;
+}
+
+.gogo {
+    color: rgb(234, 204, 194);
+    font-size: 30px;
+    margin:0 auto;
+    width: 20%;
+    margin-bottom: 150px;
+    
+    margin-top: 200px;
+    
+
+}
+
+
+
+.container{
+    display: flex;
+   justify-content: center;
+   
+   border: green solid 2px;
+
+}
+
+.container img {
+    width: 30%;
+    border: solid yellow 3px;
+   
+}
+
+
+.container div{
+    
+    border: solid red 2px
+}
+
+
+
+/* .kanne{
+    background-image: url(../img/BS1_NYC_Home.webp);
+    
+  background-repeat: no-repeat;
+ padding: 500px;
+ margin: 200px;
+   
+   
+} */
+
+.kanne img {
+/* width: 25%;
+height: 25%; */
+}
+
+
+div h2{
+    color: rgb(234, 204, 194);
+}
+
+
+
+div p {
+
+}

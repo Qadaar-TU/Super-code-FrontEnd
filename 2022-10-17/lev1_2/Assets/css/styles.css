@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-size: 3rem;
+}
+
+
+.hauptbox{
+    display: grid;
+height: 50vh;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+
+
+gap: 5px;
+
+}
+
+.Box-1 {
+    background-color: red;
+    grid-column: 1/ span 2 ;
+    
+}
+
+.Box-2 {
+    background-color: blue;
+    grid-column: 3/ span 2;
+}
+
+.Box-3 {
+    background-color: green;
+}
+
+.Box-4 {
+background-color: blueviolet;
+    grid-column: 2/ 5
+} 
+
+.Box-5 {
+
+    background-color: yellow;
+    grid-column: 1/ span 4;
+}
+
+div div {
+    border-radius: 10px 10px;
+    }
+
+
+
+    .Overlord {
+        display: grid;
+        height: 50vh;
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+
+        gap: 15px;
+    }
+
+/* .Overlord div {
+    margin: 5px;
+} */
+
+    .Grid1{
+        background-color: red;
+        grid-column: 1/ -1;
+    }
+
+    .Grid2{
+        background-color: blue;
+        grid-column: 1/ span 2;
+        grid-row: 2 / span 2 ;
+
+    }
+
+.Grid3 {
+    background-color: green;
+   grid-column: 3/ span 2;
+    
+}
+
+.Grid4{
+    background-color: blueviolet;
+  
+    
+}
+
+.Grid5 {
+    background-color: blueviolet;
+}

@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+label {
+
+}
+
+span{
+    color: red;
+}
+
+
+form{
+    border: red solid 2px;
+    padding: 2rem;
+}
+
+label{
+    font-weight: 800;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+select{
+   margin-bottom: 2rem;
+   width: 30.2rem;
+}
+
+input{
+    margin-bottom: 2rem;
+    width: 15rem;
+    
+}
+
+.mailto{
+    width: 30.2rem;
+}
+
+textarea{
+    width: 30.2rem;
+    margin-bottom: 1rem;
+}
+
+.submit {
+    width: 30rem;
+    background-color: rgb(141, 175, 141);
+    padding: 2px 0 2px 0;
+    color: white;
+
+}
+
+.submit:hover{
+    background-color: black;
+    color: white;
+}
