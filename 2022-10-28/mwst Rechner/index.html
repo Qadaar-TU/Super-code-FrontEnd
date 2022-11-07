@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <!-- ================================ -->
+        <form action="">
+          <p>Was soll berechnet werden?</p>
+          <input type="radio" name="mwst" id="Radio1" />
+          <label for="radio"
+            >Mehrwertsteuer aufschlagen (Netto zu Brutto)</label
+          >
+          <br />
+          <input type="radio" name="mwst" id="Radio2" />
+          <label for="radio">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
+          <br />
+          <hr />
+          <!-- ======================================== -->
+          <section>
+            <p>Mehrwertsteuersatz</p>
+            <input type="radio" name="satz" id="Radio3" />
+            <label for="radio">19%</label>
+            <input type="radio" name="satz" id="Radio4" />
+            <label for="radio">7%</label>
+          </section>
+          <hr />
+          <!-- ======================================= -->
+          <article>
+            <p>Nettobetrag(Preis ohne Mehrwertsteuer) in Euro</p>
+            <input
+              class="Num-Feld"
+              placeholder="10.00 €"
+              type="number"
+              name=""
+              id="Nettobetrag"
+            />
+            <br />
+            <br />
+            <input
+              onclick="check(event)"
+              class="Berechnen"
+              type="submit"
+              value="Berechnen"
+            />
+          </article>
+          <hr />
+          <!-- ================================================================================ -->
+          <section>
+            <h4>ERGEBNIS</h4>
+            <p>Mehrwertsteuerbetrag</p>
+            <h5>X€</h5>
+            <p>Bruttobetrag(Endpreis)</p>
+            <h6>X€</h6>
+          </section>
+        </form>
+      </div>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

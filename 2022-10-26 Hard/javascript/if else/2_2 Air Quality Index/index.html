@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <label for="slider">AQI</label>
+        <input
+          type="range"
+          min="1"
+          max="150"
+          value="75"
+          name="slider"
+          class="slider"
+          id="rangeSlider"
+          onchange="checkAirQuality(event)"
+        />
+        <p>Level of health concern: <span id="hc-level"></span></p>
+        <p>Level of health effect: <span id="he-level"></span></p>
+      </div>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+div {
+  width: 60vw;
+  background-color: gainsboro;
+  border: solid black 2px;
+  padding: 5px;
+  margin: 3rem;
+}
+
+h4 {
+  border-bottom: solid black 2px;
+  border-top: solid black 2px;
+  text-align: center;
+}
+
+.Berechnen {
+  margin-left: 6rem;
+}

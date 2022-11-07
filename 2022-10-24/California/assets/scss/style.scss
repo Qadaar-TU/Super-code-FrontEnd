@@ -1,0 +1,377 @@
+@font-face {
+  font-family: Lora;
+  src: url(../font/Lora/Lora-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: lorabold;
+  src: url(../font/Lora/static/Lora-Bold.ttf);
+}
+
+@font-face {
+  font-family: WorkSans;
+  src: url(../font/WorkSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: workbold;
+  src: url(../font/WorkSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: workthin;
+  src: url(../font/WorkSans-Thin.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+// ============================== HEADER =====================
+
+header {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  div {
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.7rem;
+      border: solid white 1px;
+      padding: 1rem 2.5rem;
+    }
+  }
+
+  .strich {
+    height: 20%;
+    display: flex;
+    margin-bottom: 15rem;
+  }
+  .mitte {
+    text-align: center;
+  }
+  .teiler {
+    border-right: solid gainsboro 1px;
+    width: 50vw;
+  }
+  h2:nth-last-of-type(1) {
+    color: black;
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 9rem;
+    line-height: 30px;
+    padding-bottom: 40px;
+  }
+  h2 {
+    font-size: 9rem;
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  .bear-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20rem 20rem 0 20rem;
+    align-items: center;
+  }
+}
+
+// ========================= SECTION ============================
+
+section {
+  position: relative;
+  font-family: lorabold, Arial, Helvetica, sans-serif;
+  background-color: black;
+  height: 170vh;
+  color: white;
+  .last {
+    font-size: 9rem;
+    padding: 3rem 0rem 20rem 20rem;
+    position: relative;
+    z-index: 10;
+  }
+  h4 {
+    font-size: 1.5rem;
+    padding-left: 20rem;
+    padding-bottom: 1rem;
+    font-family: WorkSans;
+  }
+  h3 {
+    font-size: 6rem;
+    padding-left: 20rem;
+    padding-bottom: 3rem;
+  }
+  .map {
+    width: 30%;
+    position: absolute;
+    left: 90rem;
+    bottom: 18rem;
+  }
+}
+
+// ======================= STUCK IN THE MIDDLE ====================
+
+.Stuck {
+  height: 220vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  h2 {
+    font-size: 10rem;
+    margin-top: 40rem;
+  }
+  p {
+    font-size: 1.5rem;
+    font-family: workbold, Arial, Helvetica, sans-serif;
+    width: 28%;
+    line-height: 3rem;
+  }
+  .stuck-pONE {
+    padding-bottom: 75rem;
+  }
+  .actionOne {
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    top: -10rem;
+    right: 40rem;
+  }
+  .actionTwo {
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    top: 25rem;
+    right: 125rem;
+  }
+  .actionThree {
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    top: 65rem;
+    right: 0rem;
+  }
+  .bearsOnTshirt {
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    top: 95rem;
+    left: 30rem;
+  }
+  .printingmachine {
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    top: 105rem;
+    left: 105rem;
+  }
+  .printingmachineTwo {
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    top: 140rem;
+    left: 0rem;
+  }
+  .guys {
+    width: 20%;
+    position: absolute;
+    z-index: 5;
+    top: 170rem;
+    left: 92rem;
+  }
+}
+
+// ============================= THE GOLDEN BEAR =======================
+
+section:nth-of-type(2) {
+  .goldenbear {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    h2 {
+      width: 50%;
+      font-size: 8rem;
+      line-height: 7rem;
+      padding: 20rem;
+      span {
+        font-size: 1.5rem;
+      }
+    }
+    p {
+      width: 50%;
+      font-size: 3rem;
+      padding: 20rem;
+
+      span {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .bearflower {
+    width: 50%;
+    position: absolute;
+    z-index: 2;
+    bottom: -10rem;
+    left: 24rem;
+  }
+  .cappy {
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+    bottom: -3rem;
+    right: 18rem;
+  }
+}
+
+// =========================== THE POPPY BEAR =============================
+
+.ring-container {
+  position: relative;
+  height: 220vh;
+  overflow: hidden;
+}
+
+.kreis {
+  width: 40%;
+  // position: absolute;
+  background-color: red;
+  right: -100rem;
+  top: -20rem;
+  // animation: MeinDreher 8s infinite linear;
+}
+
+@keyframes dreher {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.poppy-container {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+
+  margin-top: 10rem;
+
+  h2 {
+    width: 50%;
+    font-size: 9rem;
+    line-height: 9rem;
+    padding: 25rem 20rem;
+    span {
+      font-size: 1.5rem;
+    }
+  }
+  p {
+    font-family: lorabold;
+
+    width: 60%;
+    font-size: 4rem;
+    padding: 25rem 15rem;
+    span {
+      font-size: 2rem;
+    }
+  }
+}
+.rosebear {
+  width: 45%;
+  position: absolute;
+  z-index: 1;
+  top: 100rem;
+  right: 16rem;
+}
+.girl {
+  width: 25%;
+  position: absolute;
+  z-index: 2;
+  top: 110rem;
+  right: 86rem;
+}
+
+// ========================= FOOOTER =======================
+footer {
+  position: relative;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  align-items: center;
+  overflow: hidden;
+
+  div:nth-of-type(3) {
+    height: 90vh;
+  }
+
+  div {
+    width: 40%;
+    padding: 3rem;
+    p:nth-of-type(2) {
+      font-size: 2rem;
+      padding: 0;
+    }
+    p:nth-of-type(3) {
+      font-size: 2rem;
+      padding: 0;
+    }
+  }
+
+  p {
+    font-size: 4rem;
+    padding-top: 3rem;
+    line-height: 4rem;
+    padding-bottom: 5rem;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    border: solid white 1px;
+    padding: 1rem 2.5rem;
+    margin-bottom: 10rem;
+  }
+  .logo {
+    width: 6%;
+    padding-top: 10rem;
+    padding-right: 1rem;
+  }
+  .unten {
+    width: 20%;
+    margin-top: 50rem;
+    margin-left: 10rem;
+  }
+  .banner {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+    position: absolute;
+    z-index: 2;
+    top: 30rem;
+    right: -22rem;
+    transform: rotate(45deg);
+    height: 120px;
+    width: 1200px;
+    background-color: white;
+    color: black;
+    font-size: 12rem;
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <form onsubmit="return false">
+        <label for="Red">Red</label>
+        <input
+          type="range"
+          name="Red"
+          id="rangeSliderRed"
+          min="1"
+          max="255"
+          value="1"
+          onchange=" changeBackground(event)"
+        />
+        <label for="Green">Green</label>
+        <input
+          type="range"
+          name="Green"
+          id="rangeSliderGreen"
+          min="1"
+          max="255"
+          value="1"
+          onchange="changeBackground(event)"
+        />
+        <label for="Blue">Blue</label>
+        <input type="range" name="Blue" id="rangeSliderBlue" min="1" max="255"
+        value="1"
+        onchange= "changeBackground(event)"/>
+      </form>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html

@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  transition: all 1s;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-image: linear-gradient(
+      to right bottom,
+      rgb(255, 170, 1),
+      rgb(18, 232, 178)
+    ); */
+}
+
+div {
+  width: 50rem;
+}
+
+label {
+  font-size: 1.6rem;
+}
+
+.slider {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
