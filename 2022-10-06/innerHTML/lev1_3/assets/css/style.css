@@ -1,6 +1,7 @@
 #gallery {
-    display: flex;
+  display: flex;
 
-    
-   
+  width: 100rem;
+  height: 100rem;
+  border: solid 2px black;
 }

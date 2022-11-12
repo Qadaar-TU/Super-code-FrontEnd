@@ -1,11 +1,19 @@
+const output = document.querySelector("h1");
 
-function Rechner(){
-    event.preventDefault();
+const Rechner = (event) => {
+  event.preventDefault();
+  const input = document.getElementById("bäm").value;
+  output.innerHTML = input * 2;
+};
 
-    const Headliner = document.querySelector ("h1")
+// function Rechner(event) {
+//   event.preventDefault();
 
-const nummmer = document.querySelector("#bäm").value
+//   const output = document.querySelector("h1");
 
-Headliner.innerHTML = "Das ergibt " + nummmer*2;
+//   const input = document.querySelector("#bäm").value;
 
-}
+//   output.innerHTML = "Das ergibt " + input * 2;
+
+//   console.log("h2232454534i3g");
+// }

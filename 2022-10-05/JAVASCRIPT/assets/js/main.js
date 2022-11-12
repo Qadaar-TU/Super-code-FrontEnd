@@ -1,268 +1,254 @@
+// // // // aufgabe 1_1-------------------------------------
 
-   
-    
-// aufgabe 1_1-------------------------------------
+// // //     function myFunction() { document.getElementById("test").style.color
+// // //     = "red"; }
 
-    function myFunction() { document.getElementById("test").style.color
-    = "red"; }
+// // // document.write("<br></br>")
+// // // document.write("<br></br>")
+// // // document.write("<br></br>")
 
+// // // // Aufgabe 1_1---------------------------------------
 
-document.write("<br></br>")
-document.write("<br></br>")
-document.write("<br></br>")
+document.write(" <h1> Hello World!</h1>");
+document.write("<p> Have a nice day!</p>");
 
-// Aufgabe 1_1---------------------------------------
+let myText = "Hello Again";
 
-    document.write (" <h1> Hello World!</h1>")
-    document.write ("<p> Have a nice day!</p>" )
+document.write(myText);
 
-    let myText= "Hello Again"
+// // //     let vorname= "Name: John"
+// // //     let nachname= "Nachnahme: Schmidt"
+// // //     document.write("<br></br>")
+// // //     document.write( vorname )
+// // //     document.write("<br></br>")
+// // //     document.write( nachname)
 
-    document.write(myText)
+// // // // Aufgabe 1_1--------------------------
 
-    let vorname= "Name: John"
-    let nachname= "Nachnahme: Schmidt"
-    document.write("<br></br>")
-    document.write( vorname )
-    document.write("<br></br>")
-    document.write( nachname)
+// // // document.write("<br></br>")
+// // // document.write("<br></br>")
+// // // document.write("<br></br>")
+// // // document.write("<br></br>")
 
+// // //     let a = 12;
+// // //     let b = a * 3;
 
-// Aufgabe 1_1--------------------------
+// // //     console.log(b);
 
-document.write("<br></br>")
-document.write("<br></br>")
-document.write("<br></br>")
-document.write("<br></br>")
+// // //     document.write(b);
 
-    let a = 12;
-    let b = a * 3;
-    
-    console.log(b);
+// // //     console.log(document.URL);
 
-    document.write(b);
+// // //     document.write("<br></br>")
+// // // document.write("<br></br>")
+// // // document.write("<br></br>")
+// // // document.write("<br></br>")
 
+// // // // aufgabe 1_1-------------------------
 
-    console.log(document.URL);
+// // //     console.log ("Hello World!")
+// // //     console.log("Anton")
 
-    document.write("<br></br>")
-document.write("<br></br>")
-document.write("<br></br>")
-document.write("<br></br>")
+// // //     let firstName = "Anton"
 
-// aufgabe 1_1-------------------------
+// // //     console.log(firstName)
 
+// // //     let age = 28
+// // //     console.log(age)
+// // //     let job= "Trainer"
+// // //     console.log(job)
 
-    console.log ("Hello World!")
-    console.log("Anton")
+// // //     let married= true;
 
-    let firstName = "Anton"
+// // //     console.log(married)
 
-    console.log(firstName)
+// // //     console.log(firstName + " ist " + age + " Jahre alt," + "von Beruf " + job + " und ist verheiratet: " + married );
 
-    let age = 28
-    console.log(age)
-    let job= "Trainer"
-    console.log(job)
+// // // // Aufgabe 1_2------------------------------------------------
 
-    let married= true;
+// // // // This is a single line JavaScript comment
+// // // document.write("I have comments in my JavaScript code!");
+// // // //document.write("You can't see this!");
+// // // //-->
 
-    console.log(married)
+// // // document.write("I have multi-line comments!");
+// // // /*document.write("You can't see this!");
+// // // document.write("You can't see this!");
+// // // document.write("You can't see this!");
+// // // document.write("You can't see this!");
+// // // document.write("You can't see this!");
+// // // document.write("You can't see this!");
+// // // document.write("You can't see this!");*/
 
-    console.log(firstName + " ist " + age + " Jahre alt," + "von Beruf " + job + " und ist verheiratet: " + married );
+// // // // --------------------------------------------\
 
+// // // document.write("<br></br>")
+// // // document.write("<br></br>")
 
-// Aufgabe 1_2------------------------------------------------
-
-
-
-// This is a single line JavaScript comment
-document.write("I have comments in my JavaScript code!");
-//document.write("You can't see this!");
-//-->
-
-document.write("I have multi-line comments!");
-/*document.write("You can't see this!");
-document.write("You can't see this!");
-document.write("You can't see this!");
-document.write("You can't see this!");
-document.write("You can't see this!");
-document.write("You can't see this!");
-document.write("You can't see this!");*/
-
-
-// --------------------------------------------\
-
-
-
-document.write("<br></br>")
-document.write("<br></br>")
-
-
-// Aufgabe 1_4----------------------------------
+// // // // Aufgabe 1_4----------------------------------
 
 // window.alert("Hallo Welt");
 
-// window.prompt("Bitte geben Sie Ihren Namen ein." );
+// window.prompt("Bitte geben Sie Ihren Namen ein.");
 
-// windows.prompt("Bitte geben sie ihren namen ein", "Cancel");
+// window.prompt("Bitte geben sie ihren namen ein", "bäm");
 
 // window.confirm("Stimmen sie meiner meinung zu ?");
 
-
-// let alter = prompt ("Gib mit bitte dein Alter:");
+// let alter = prompt("Gib mit bitte dein Alter:");
 
 // console.log(alter);
 
-// let B = 5;
-// let A = b * 5 -3;
-// // alert(A);
+// let b = 5;
+// let a = b * 5 - 3;
+// alert(a);
 
-let mann = "Rober Wadlow ist der größte Mann der Welt :";
-let grosse = "2,72m";
+// let mann = "Rober Wadlow ist der größte Mann der Welt :";
+// let grosse = "2,72m";
 // alert(mann + grosse);
 
-// Aufgabe 1_5--------------------------------------------------
+// // // // Aufgabe 1_5--------------------------------------------------
 
+// // let carName = "BMW";
 
-let carName = "BMW";
+// // console.log(carName);
 
-console.log(carName);
+// // let X = 150;
 
-// let X = 150;
+// // let Y = 50;
 
-// let Y = 50;
+// // let Z = X + Y;
 
-// let Z = X + Y;
+// // console.log(Z);
 
-// console.log(X)
-// console.log(Y)
-// console.log(Z)
+// // let x = 34;
+// // x = 76;
 
+// // console.log(x);
 
+// // let y = 34;
 
+// // y = 67;
 
-let erstName = "John "
-let LastName = "Doe"
-let Age = 35
+// // console.log(y);
 
-console.log(erstName + LastName)
+// // console.log(Y)
+// // console.log(Z)
 
+// let erstName = "John ";
+// let LastName = "Doe";
+// let Age = 35;
 
-// Aufgabe 1_6------------------------------------------------------
+// console.log(erstName + LastName);
 
-// let x = 34;
-// x = 76;
+// // // Aufgabe 1_6------------------------------------------------------
 
-// console.log(x);
+// // let x = 34;
+// // x = 76;
 
-// let y = 34;
+// // console.log(x);
 
-// y = 67;
+// // let y = 34;
 
-// console.log(y)
+// // y = 67;
 
+// // console.log(y);
 
-// Aufgabe 1_7----------------------------
+// // // Aufgabe 1_7----------------------------
 
-const helloWorld = "Hello World"
-let pi = 3.14
-let burjDubai = "828m"
-let fullName = "Jan Schmidt"
-let eifelTower = "324m"
-let camelCase = "CamelCase"
-const kursStatus = true
+// // const helloWorld = "Hello World";
+// // let pi = 3.14;
+// // let burjDubai = "828m";
+// // let fullName = "Jan Schmidt";
+// // let eifelTower = "324m";
+// // let camelCase = "CamelCase";
+// // const kursStatus = true;
 
+// // // Aufgabe 1_11-------------------------------
 
+// let x = "Hello ";
+// let y = "World<br>";
 
-// Aufgabe 1_11-------------------------------
+// let z = x + y;
 
+// document.write(z);
 
-let x = "Hello ";
-let y = "World<br>";
+// let n = x + " " + y;
 
-let z = x+y;
+// document.write(n);
 
-document.write(z);
+// let meinString = "Ich bin Erster";
 
-let n = x + " " + y ;
+// let platzZwei = "Ich komme auf Platz zwei";
 
-document.write(n);
+// console.log(meinString);
 
-let meinString = "Ich bin Erster"; 
+// // // Aufgabe 1_12-----------------------------------------------------------
 
-let platzZwei = "Ich komme auf Platz zwei";
+// // let score = 5 + 5 * 10;
+// // // console.log( 'Ergebnis: ' + score)
+// // // Multiplikation geht vor deshalb rechnet er erst 5 * 10
 
-console.log(meinString);
+// // // wenn man eine Klammer hinzufugt dann gibt man die reihenfolge der prioritäten
 
+// // // let score = (5 + 5 ) * 10
+// // // console.log( 'Ergebnis: ' + score)
 
-// Aufgabe 1_12-----------------------------------------------------------
+// // let score = 0;
+// // // score = score +10;
+// // // console.log( 'Ergebnis: ' + score)
 
-// let score = 5 + 5 * 10;
-// console.log( 'Ergebnis: ' + score)
-// Multiplikation geht vor deshalb rechnet er erst 5 * 10 
+// // score += 10;
+// // // score = score +10; selbe wie bei 215
+// // console.log("Ergebnis: " + score);
 
-// wenn man eine Klammer hinzufugt dann gibt man die reihenfolge der prioritäten
+// // let zahl = 1;
+// // zahl = zahl + 1;
+// // zahl += 1;
+// // console.log(zahl);
 
-// let score = (5 + 5 ) * 10
-// console.log( 'Ergebnis: ' + score)
+// // rauskommt 3 als ergebnis
 
-let score = 0;
-// score = score +10;
-// console.log( 'Ergebnis: ' + score)
+// // zahl++;
+// // console.log(zahl);
 
+// // // raus kommt 4 als ergebnis
 
-score += 10;
-// score = score +10; selbe wie bei 215
-console.log("Ergebnis: " + score);
+// // zahl--;
+// // console.log(zahl);
 
+// // raus kommt 3 als ergebnis
 
+// // // Aufgabe 1_13---------------------------------
 
-let zahl = 1;
-zahl = zahl + 1;
-zahl +=1;
-console.log( zahl)
+// // let additition_operator = 1 + 1;
+// // console.log("addition: " + additition_operator);
 
-// rauskommt 3 als ergebnis 
+// // // Subtraktion
+// // let subtraktion_operator = 2 - 1;
+// // console.log("subtraktion: " + subtraktion_operator);
 
-zahl++ 
-console.log( zahl)
+// // // Multiplikation
+// // let multiplication_operator = 2 * 2;
+// // console.log("multiplication: " + multiplication_operator);
 
-// raus kommt 4 als ergebnis 
+// // let division_operator = 4 / 2;
+// // console.log("division: " + division_operator);
 
-zahl--
-console.log( zahl)
- 
-// raus kommt 3 als ergebnis
+// // // Modul: zeigt an, was der Rest sein würde.
+// // let modulus_operator = 14 % 5;
+// // console.log("modulus: " + modulus_operator);
 
+// // 1_12 nochmal
 
+// // let score = 0;
+// // score = score + 10;
+// // // let score = (5 + 5) * 10;
+// // console.log("ergebnis " + score);
 
+// // let zahl = 1;
+// // // zahl += 1;
+// // console.log(zahl);
 
-
-// Aufgabe 1_13---------------------------------
-
-
-let additition_operator = 1+1;
-console.log( "addition: " + additition_operator )
-
-
-
-
-
-// Subtraktion
-let subtraktion_operator = 2 - 1;
-console.log("subtraktion: " + subtraktion_operator);
-
-
-// Multiplikation
-let multiplication_operator = 2 * 2;
-console.log("multiplication: " + multiplication_operator);
-
-
-let division_operator = 4 / 2;
-console.log("division: " + division_operator);
-
-// Modul: zeigt an, was der Rest sein würde.
-let modulus_operator = 14 % 5;
-console.log("modulus: " + modulus_operator);
-
+// // zahl--;
+// // console.log("increment " + zahl);
