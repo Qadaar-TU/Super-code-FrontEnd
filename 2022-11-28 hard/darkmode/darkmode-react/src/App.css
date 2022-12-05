@@ -1,0 +1,9 @@
+.App {
+  width: 40vw;
+  height: 40vh;
+  background-color: yellow;
+  text-align: center;
+  border: solid 2px black;
+  margin: auto;
+  margin-top: 5rem;
+}

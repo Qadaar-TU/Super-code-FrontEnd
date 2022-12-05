@@ -1,0 +1,12 @@
+img {
+  max-width: 50px;
+}
+
+article {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  margin: 3px;
+}

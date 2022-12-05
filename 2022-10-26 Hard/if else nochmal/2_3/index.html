@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Lass uns rechnen</h1>
+      <form>
+        <label for="inputField">Gibt eine Zahl ein!</label>
+
+        <input type="number" name="inputField" id="inputField" />
+        <input type="submit" value="Los!" onclick="doCalc(event)" />
+      </form>
+      <p id="result">Jetzt wird gerechnet, aber du weißt nicht was</p>
+      <p id="hint"></p>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

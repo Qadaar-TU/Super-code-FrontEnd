@@ -1,0 +1,60 @@
+header {
+  background-color: green;
+  text-align: center;
+  height: min-content;
+  padding-top: 30px;
+}
+
+.strich {
+  width: 350px;
+  background-color: white;
+  padding: 0.1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: white;
+  font-size: 4rem;
+}
+
+p {
+  /* margin-left: 15rem;
+    margin-right: 15rem; */
+  /* max-width: 50vw; */
+  /* height: min-content; */
+  /* margin: auto; */
+  font-size: 1.5rem;
+  padding: 3%;
+}
+
+h3 {
+  color: white;
+  font-size: 4rem;
+}
+
+.wrapper div {
+  border-right: white solid 1px;
+
+  padding: 10px;
+  /* padding-right: 90px; */
+}
+
+.wrapper div:last-child {
+  border: none;
+}
+
+.wrapper {
+  padding: 2% 7%;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.obenWrapper {
+  padding: 5% 15% 0 15%;
+}

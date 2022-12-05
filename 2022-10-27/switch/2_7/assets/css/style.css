@@ -1,0 +1,43 @@
+:root {
+  --dhl-red: #d40511;
+  --dhl-yellow: #ffcc00;
+}
+
+.dhl {
+  display: flex;
+  color: var(--dhl-red);
+  background-color: var(--dhl-yellow);
+  height: 13em;
+  width: 35em;
+}
+
+.boxMasse {
+  margin: 5px;
+  width: 250px;
+  border: 2px solid var(--dhl-red);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dhlButton {
+  border: 2px solid var(--dhl-red);
+  color: #fff;
+  background-color: var(--dhl-red);
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 3.8rem;
+  border: 2px solid #d1d1d1;
+  border-radius: 0;
+  cursor: pointer;
+  outline: 0;
+  font-weight: 500;
+  white-space: normal;
+  transition: color 200ms, background-color 200ms, border-color 200ms;
+}
+.dhlButton:hover {
+  color: var(--dhl-red);
+  background-color: #fff;
+  outline: 0;
+  border-color: var(--dhl-red);
+}

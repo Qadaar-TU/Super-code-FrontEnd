@@ -1,0 +1,29 @@
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main {
+  padding: 3rem;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid #000;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+label {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+input:not(:last-of-type) {
+  margin-bottom: 1.6rem;
+}

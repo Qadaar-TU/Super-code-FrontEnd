@@ -5,6 +5,6 @@ console.log(txt);
 
 console.log(txt.indexOf("h"));
 
-console.log(txt.indexOf("Earth"));
+console.log(txt.indexOf("Eart"));
 
 console.log(txt.indexOf("Moon"));

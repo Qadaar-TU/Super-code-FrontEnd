@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Das krasse Alter-Größe-Spiel</h1>
+      <p>
+        Das Alter wird mit 5 multipliziert und dann zur Größe gerechnet. Wer hat
+        mehr Punkte ?
+      </p>
+
+      <form>
+        <p>
+          John ist
+          <span>
+            <input type="number" placeholder="Johns Größe" id="inputHeightJohn"
+          /></span>
+          cm groß und
+          <span>
+            <input type="number" placeholder="Johns alter" id="inputAgeJohn"
+          /></span>
+          Jahre alt.
+          <br />
+          <br />
+          Mike ist
+          <span
+            ><input
+              type="number"
+              placeholder="Mikes Größe"
+              id="inputHeightMike"
+          /></span>
+          cm groß und
+          <span
+            ><input type="number" placeholder="Mikes alter" id="inputAgeMike"
+          /></span>
+          Jahre alt.
+        </p>
+        <button type="submit" onclick="calculate(event)">Berechne!</button>
+      </form>
+      <p>Johns Punkte <span id="pointsJohn"></span></p>
+      <p>Mikes Punkte <span id="pointsMike"></span></p>
+      <p>Gewinner: <span id="Winner"></span></p>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

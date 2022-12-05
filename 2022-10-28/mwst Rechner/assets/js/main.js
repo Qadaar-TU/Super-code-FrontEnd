@@ -6,21 +6,22 @@
 function check(event) {
   event.preventDefault();
 
-  let Radio1 = document.getElementById("Radio1").checked;
+  let mwstAufschlagen = document.getElementById("Radio1").checked;
 
-  let Radio2 = document.getElementById("Radio2").checked;
+  let mwstAbziehen = document.getElementById("Radio2").checked;
 
-  let Radio3 = document.getElementById("Radio3").checked;
+  let neunzehnProzent = document.getElementById("Radio3").checked;
 
-  let Radio4 = document.getElementById("Radio4").checked;
+  let siebenProzent = document.getElementById("Radio4").checked;
 
   let NettoBetrag = Number(document.getElementById("Nettobetrag").value);
 
-  if (Radio1 == true && Radio3 == true) {
-    // console.log("erstes if ist true");
+  console.log(mwstAufschlagen, siebenProzent);
+
+  if (mwstAufschlagen == true && neunzehnProzent == true) {
     let Berechnung19 = NettoBetrag * 0.19;
     console.log(Berechnung19);
-  } else if (Radio2 == true && Radio3 == true) {
+  } else if (mwstAbziehen == true && siebenProzent == true) {
     console.log("zweites if und else ist true");
   }
 }

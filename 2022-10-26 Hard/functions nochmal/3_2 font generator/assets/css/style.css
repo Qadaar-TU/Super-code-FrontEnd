@@ -1,0 +1,91 @@
+/* ========================= FONTS ====================== */
+
+@font-face {
+  font-family: bodoni;
+  src: url(../font/Bodoni_Moda/static/BodoniModa_28pt/BodoniModa_28pt-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../font/Roboto\ /Roboto);
+}
+
+@font-face {
+  font-family: yusei;
+  src: url(../font/Yusei_Magic/YuseiMagic-Regular.ttf);
+}
+
+@font-face {
+  font-family: opensans;
+  src: url(../font/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+
+  src: url(../font/Open_Sans/static/OpenSans/OpenSans-Regular);
+}
+
+/* ============================== BASICS=============== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+/* ================= CONTENT ==================== */
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: blanchedalmond;
+  padding-top: 50vh;
+}
+
+div {
+  border: 1px solid black;
+  padding: 3rem;
+  background-color: rgb(250, 250, 250);
+  transform: translateY(-50%);
+  height: 24rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 4rem;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  border: none;
+}
+
+select {
+  padding: 0.5rem;
+}
+
+#inputField {
+  padding: 0.8rem;
+  font-size: 1.6rem;
+}
+
+#inputField:focus {
+  outline: none;
+
+  border: 2px solid green;
+  border-radius: 5px;
+}

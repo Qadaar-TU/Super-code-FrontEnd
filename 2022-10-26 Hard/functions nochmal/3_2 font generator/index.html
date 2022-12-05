@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <form onsubmit="return false">
+          <h2>Fonts Generator</h2>
+          <fieldset>
+            <input
+              type="range"
+              min="8"
+              max="64"
+              value="20"
+              class="slider"
+              name="slider"
+              id="rangeSlider"
+              onchange="changeFontsSize(event)"
+            />
+            <select
+              name="fonts"
+              id="fonts-select"
+              onchange="changeFontsSize(event)"
+            >
+              <option value="bodoni">Bodoni Moda, serif</option>
+              <option value="sans">Open Sans, sans-serif</option>
+              <option value="roboto">Roboto, sans-serif</option>
+              <option value="yusei">Yusei Magic, sans-serif</option>
+            </select>
+
+            <input
+              type="text"
+              id="inputField"
+              onchange="changeFontsSize(event)"
+            />
+          </fieldset>
+          <h1 id="result">Test</h1>
+        </form>
+      </div>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
+ddd

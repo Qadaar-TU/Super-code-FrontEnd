@@ -1,6 +1,6 @@
 const inputElement = document.getElementById("inputField");
 const resultElement = document.getElementById("result");
-const hintElement = document.getElementById("hint");
+const hintElemyent = document.getElementById("hint");
 
 let counter = 0;
 

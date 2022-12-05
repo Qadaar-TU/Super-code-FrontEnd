@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  background: hsla(55, 96%, 69%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(55, 96%, 69%, 1) 0%,
+    hsla(41, 97%, 64%, 1) 50%,
+    hsla(343, 88%, 63%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(55, 96%, 69%, 1) 0%,
+    hsla(41, 97%, 64%, 1) 50%,
+    hsla(343, 88%, 63%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(55, 96%, 69%, 1) 0%,
+    hsla(41, 97%, 64%, 1) 50%,
+    hsla(343, 88%, 63%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FCEF64", endColorstr="#FCC44B", GradientType=1 );
+}
+
+nav a {
+  font-size: 26px;
+  background: hsla(272, 78%, 16%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(272, 78%, 16%, 1) 0%,
+    hsla(17, 60%, 52%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(272, 78%, 16%, 1) 0%,
+    hsla(17, 60%, 52%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(272, 78%, 16%, 1) 0%,
+    hsla(17, 60%, 52%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2B0948", endColorstr="#CE653B", GradientType=1 );
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  padding-top: 20px;
+  background: hsla(272, 78%, 16%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(272, 78%, 16%, 1) 0%,
+    hsla(17, 60%, 52%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(272, 78%, 16%, 1) 0%,
+    hsla(17, 60%, 52%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(272, 78%, 16%, 1) 0%,
+    hsla(17, 60%, 52%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2B0948", endColorstr="#CE653B", GradientType=1 );
+  border-radius: 25px;
+}
+
+.grid-item img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.grid-item a {
+  font-size: 20px;
+  color: white;
+}

@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    56deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+div {
+  margin-top: 10rem;
+  min-width: 20vw;
+  max-height: 500px;
+  padding: 5rem;
+  border-radius: 20px;
+
+  background: rgb(34, 193, 195);
+  background: radial-gradient(
+    circle,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+p {
+  border: solid green 2px;
+  width: 200px;
+  padding: 1rem;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
